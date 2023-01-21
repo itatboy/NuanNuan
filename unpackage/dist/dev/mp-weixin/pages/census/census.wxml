@@ -1,0 +1,1 @@
+<view><view class="cu-form-group margin-top"><view class="title">喂养时间</view><picker mode="multiSelector" bindchange="{{d}}" bindcolumnchange="{{e}}" value="{{f}}" range="{{g}}"><view class="picker">{{a}}，{{b}}，{{c}}</view></picker></view></view>

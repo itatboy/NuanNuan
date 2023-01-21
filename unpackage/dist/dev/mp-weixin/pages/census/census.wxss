@@ -1,0 +1,6 @@
+
+button .cu-tag {
+		position: absolute;
+		top: 8rpx;
+		right: 8rpx;
+}

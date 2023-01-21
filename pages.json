@@ -1,0 +1,90 @@
+{
+	"topWindow": {
+		// "path": "windows/top-window.vue",
+		"style": {
+			"height": "60px"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/baby/baby",
+			"style": {
+				"navigationBarTitleText": "今日",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/census/census",
+			"style": {
+				"navigationBarTitleText": "统计",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "家长",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/baby/baby",
+				"iconPath": "static/tabbar/tab1.png",
+				"selectedIconPath": "static/tabbar/tab1-a.png"
+				// "text": "内置组件"
+			},
+			{
+				"pagePath": "pages/census/census",
+				"iconPath": "static/tabbar/tab2.png",
+				"selectedIconPath": "static/tabbar/tab2-a.png"
+				// "text": "接口"
+			}, {
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/tab3.png",
+				"selectedIconPath": "static/tabbar/tab3-a.png"
+				// "text": "扩展组件"
+			}
+		]
+	}
+}

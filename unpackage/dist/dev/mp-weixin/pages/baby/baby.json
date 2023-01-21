@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "今日",
+  "usingComponents": {
+    "uni-fab": "../../uni_modules/uni-fab/components/uni-fab/uni-fab"
+  }
+}

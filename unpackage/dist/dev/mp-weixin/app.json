@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/baby/baby",
+    "pages/census/census",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/baby/baby",
+        "iconPath": "static/tabbar/tab1.png",
+        "selectedIconPath": "static/tabbar/tab1-a.png"
+      },
+      {
+        "pagePath": "pages/census/census",
+        "iconPath": "static/tabbar/tab2.png",
+        "selectedIconPath": "static/tabbar/tab2-a.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/tab3.png",
+        "selectedIconPath": "static/tabbar/tab3-a.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
